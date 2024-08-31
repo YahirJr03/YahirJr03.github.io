@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yahir's Partys</title>
+    <!-- Enlace a los estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Iconos de Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Fuente de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Yahir's Partys</a>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#rooms">Habitaciones</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                    <li><a href="#reservation" class="btn-reservation">Reserva</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Principal -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Bienvenido a Yahir's Partys</h1>
+            <p>Donde la diversión y el lujo se unen para crear experiencias inolvidables</p>
+            <a href="#rooms" class="btn-primary">Ver Habitaciones</a>
+        </div>
+    </section>
+
+    <!-- Sección de Habitaciones -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <h2>Habitaciones</h2>
+            <div class="room-grid">
+                <!-- Aquí se ingresa la imagen de la Habitación Deluxe -->
+                <div class="room">
+                    <img src="imagenes/habitacion1.jpg" alt="Habitación Deluxe">
+                    <h3>Habitación Deluxe</h3>
+                    <p>Una habitación espaciosa con vistas al mar.</p>
+                    <a href="#" class="btn-secondary">Ver Más</a>
+                </div>
+                <!-- Aquí se ingresa la imagen de la Habitación Suite -->
+                <div class="room">
+                    <img src="imagenes/habitacion2.jpg" alt="Habitación Suite">
+                    <h3>Habitación Suite</h3>
+                    <p>Lujo y comodidad en cada rincón.</p>
+                    <a href="#" class="btn-secondary">Ver Más</a>
+                </div>
+                <!-- Aquí se ingresa la imagen de la Habitación Familiar -->
+                <div class="room">
+                    <img src="imagenes/habitacion3.jpg" alt="Habitación Familiar">
+                    <h3>Habitación Familiar</h3>
+                    <p>Perfecta para unas vacaciones en familia.</p>
+                    <a href="#" class="btn-secondary">Ver Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Servicios</h2>
+            <div class="service-grid">
+                <!-- Servicio de Piscina -->
+                <div class="service">
+                    <img src="imagenes/piscina.jpg" alt="Piscina">
+                    <h3>Piscina</h3>
+                    <p>Disfruta de nuestra piscina al aire libre con vistas impresionantes.</p>
+                </div>
+                <!-- Servicio de Spa -->
+                <div class="service">
+                    <img src="imagenes/spa.jpg" alt="Spa">
+                    <h3>Spa</h3>
+                    <p>Relájate en nuestro spa con tratamientos de lujo.</p>
+                </div>
+                <!-- Servicio de Restaurante -->
+                <div class="service">
+                    <img src="imagenes/restaurante.jpg" alt="Restaurante Gourmet">
+                    <h3>Restaurante Gourmet</h3>
+                    <p>Saborea una experiencia culinaria única en nuestro restaurante.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Correo Electrónico" required>
+                <textarea placeholder="Mensaje" required></textarea>
+                <button type="submit" class="btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yahir's Partys. Todos los derechos reservados.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
